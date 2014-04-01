@@ -1,0 +1,17 @@
+" I use spf-13.vim for pretty much everything but these (vim.spf13.com)
+
+colorscheme zenburn
+let g:airline_powerline_fonts=1
+
+
+set shiftwidth=2                " Use indents of 2 spaces
+set expandtab                   " Tabs are spaces, not tabs
+set tabstop=2                   " An indentation every four columns
+set softtabstop=2               " Let backspace delete indent
+
+set wrap
+Bundle 'vim-scripts/SyntaxRange'
+
+set clipboard=unnamed
+
+let $PATH .= '/Users/jp/Library/Haskell/bin/'
